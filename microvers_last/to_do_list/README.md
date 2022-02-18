@@ -2,7 +2,7 @@
 
 # Project Name
 
-Online Course capstone project  
+To Do List project
 
 ![Screenshot](https://user-images.githubusercontent.com/77942746/152469213-7df2dcad-1368-4063-ac6a-75680eac8e6d.png)
 
@@ -10,9 +10,7 @@ Online Course capstone project
 
 ![Screenshot](https://user-images.githubusercontent.com/77942746/152469308-b34826ac-f714-4697-b1b9-6f3dee34e91b.png)
 
-
 ![Screenshot](https://user-images.githubusercontent.com/77942746/152469343-4c3e0ca5-3d63-4de1-abd4-a06a506ee9e3.png)
-
 
 ![Screenshot](https://user-images.githubusercontent.com/77942746/152469396-484bc679-ff65-4a45-b5e2-32d952f7ced4.png)
 
@@ -31,19 +29,19 @@ Online Course capstone project
 ![Screenshot](https://user-images.githubusercontent.com/77942746/152469662-9e96c0b8-5180-42d9-b473-0ebc61cd989a.png)
 
 ### Video link about project
-(https://www.loom.com/share/32a0ee3361cd4f6dbad65f5b52496d5d)
 
+(https://www.loom.com/share/32a0ee3361cd4f6dbad65f5b52496d5d)
 
 ## Built With
 
-- html and css
-- javascript
+- Html and Css
+- Javascript
+- Webpack
 - Visual studio and github
 
 ## Live Demo
 
 [Live Demo Link](https://karam084.github.io/online-courses-capstone/)
-
 
 👤 **Author**
 
@@ -63,7 +61,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thank you Microverse for your effort. 
+- Thank you Microverse for your effort.
 - Original design idea by https://www.behance.net/adagio07
 
 ## 📝 License
