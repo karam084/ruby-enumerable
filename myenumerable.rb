@@ -6,7 +6,7 @@ module MyEnumerable
   end
 
 def any?
-  result = true
+  result = false
   each { |item| result |= yield(item) }
   result
 end
