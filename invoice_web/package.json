@@ -1,0 +1,21 @@
+{
+  "name": "invoice_web",
+  "version": "1.0.0",
+  "description": "Mobile app",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^4.8.0",
+    "@capacitor/cli": "^4.8.0",
+    "@capacitor/core": "^4.8.0",
+    "node": "^20.0.0"
+  }
+}

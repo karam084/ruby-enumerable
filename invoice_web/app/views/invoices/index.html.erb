@@ -1,0 +1,71 @@
+<! DOCTYPE html>
+<html>
+<head>
+  <title>Invoice</title>
+    <!-- ... -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+ 
+    <!-- DevExtreme theme -->
+    <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/22.2.5/css/dx.light.css">
+ 
+    <!-- DevExtreme library -->
+    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/22.2.5/js/dx.all.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/22.2.5/js/dx.web.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/22.2.5/js/dx.viz.js"></script> -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+
+</head>
+<body class="dx-viewport">
+<div class="demo-container">
+<p id="notice"><%= notice %></p>
+
+<div class="row dx-swatch-dark buttons-demo" >
+  <div class="col-md-8 col-md-offset-2 column-header">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+      <div class="container-fluid" >
+        <div class="col-md-2" >
+          <%= link_to 'New Invoice', new_invoice_path, class: "btn btn-primary dx-viewport" %>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="panel-body dx-theme-generic-typography">
+        <table id="btnCancelInterv0" class="table table-hover table-bordered btdtgv"cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-collapse:separate;-moz-user-select:none;">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Arabic Name</th>
+              <th>Amount</th>
+              <th>Date</th>
+              <th colspan="1"></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <% @invoices.each do |invoice| %>
+              <tr>
+                <td class="dxbButton_Glass" align="center"><%= invoice.company %></td>
+                <td class="dxbButton_Glass" align="center"><%= invoice.contragent %></td>
+                <td class="dxbButton_Glass" align="center"><%= invoice.amount %> <%= invoice.currency %></td>
+                <td class="dxbButton_Glass" align="center"><%= invoice.date %></td>
+                <td class="dxbButton_Glass" align="center"><%= link_to 'Show', invoice, class: "btn btn-info dx-button" %></td>
+                
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="panel-footer">
+        
+      </div>
+    </div>
+  </div> 
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<! DOCTYPE html>
+<html>
+<head>
+    <!-- ... -->
+ 
+    <!-- DevExtreme theme -->
+    <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/22.2.5/css/dx.light.css">
+ 
+    <!-- DevExtreme library -->
+    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/22.2.5/js/dx.all.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/22.2.5/js/dx.web.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/22.2.5/js/dx.viz.js"></script> -->
+</head>
+<body class="dx-viewport">
+<div class="row dxbButton_Glass">
+	<div class="col-md-10 col-md-offset-1">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+		      <%= link_to 'Back', invoices_path, class: "btn btn-danger" %>
+		    </div>
+
+		    <div class="panel-body">
+		    	<%= render 'form' %>
+		    </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
