@@ -1,6 +1,6 @@
 # morse_decoder
 
-> This project is used as an introduction practice for ruby.
+> This project is used as an introduction practice for Ruby.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ This repository includes files with plain ruby
 
 - GitHub: [@githubhandle](https://github.com/AlphaNtihinduka)
 - Twitter: [@twitterhandle](https://twitter.com/@alphantihinduka)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ntihinduka-alpha-81bb7b22a/)
+- LinkedIn [LinkedIn](https://www.linkedin.com/in/ntihinduka-alpha-81bb7b22a/)
 
 ## 🤝 Contributing
 
